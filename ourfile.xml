@@ -1,0 +1,7 @@
+<xml>
+    <page><title>thank</title><id>1</id><text>[[hello]]</text></page>
+    <page><title>Bob</title><id>2</id><text>[[bye]]</text></page>
+    <page><title>hello</title><id>3</id><text>[[bye]]</text></page>
+    <page><title>bye</title><id>4</id><text>[[thank]] [[hello]]</text></page>
+</xml>
+<!--Expected: Rank(A) = 0.2018, Rank(B) = 0.0375, Rank(C) = 0.3740, Rank(D) = 0.3867-->
